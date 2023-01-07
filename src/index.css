@@ -23,12 +23,12 @@ li.alice-carousel__dots-item:not(.__custom).__active {
   height: 12px;
 }
 
-ul.alice-carousel__stage {
+/* ul.alice-carousel__stage {
   border: 2px solid;
   height: 80vh;
-}
+} */
 
-/* @media screen and (max-width: 500px) {
+/* @media screen and (max-width: 900px) {
   ul.alice-carousel__stage {
     border: 2px solid;
     height: 35vh;

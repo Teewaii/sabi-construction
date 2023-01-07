@@ -12,16 +12,16 @@ const items = [
     <div className="slider-one bg-black bg-hero1-bkg md:bg-hero1-bkg_lg  bg-cover bg-no-repeat h-[100%]  relative ">
         <div className="slideOne-bucket flex justify-between items-center container h-[100%]">
             <div className="text text-left flex-1">
-                <h1 className='text-white text-left text-xl md:text-5xl xl:text-6xl uppercase font-bold '>You dream it.<br /> We can build it.</h1>
-                <p className='text-[0.8rem] md:text-lg xl:text-2xl text-white font-light mb-6 '>A once-in-a-lifetime project deserves timeless construction.</p>
-                <div className="buttons flex gap-x-2 lg:gap-x-6">
+                <h1 className='text-white text-left text-xl md:text-4xl xl:text-6xl uppercase font-bold '>You dream it.<br /> We can build it.</h1>
+                <p className='text-[0.8rem] md:text-md xl:text-2xl text-white font-light mb-6 '>A once-in-a-lifetime project deserves timeless construction.</p>
+                <div className="buttons flex gap-x-2 md:gap-x-6">
                     <Contact_btn />
                     <Projects_btn className='bg-orange text-black' />
                 </div>
             </div>
             <div className="SlideOne-imgage flex items-end justify-end h-[100%] flex-[1]">
                 <img src={heroMob1} className='md:hidden w-[100%]  ' alt="carousel image" />
-                <img src={heroDesk1} className='hidden md:flex  w-[70%]' alt="carousel image" />
+                <img src={heroDesk1} className='hidden md:flex  w-[70%] md:w-[85%]' alt="carousel image" />
             </div>
 
         </div>
