@@ -5,7 +5,6 @@ function Hero() {
     return (
         <div className='hero'>
             <Herocarousel />
-            Hello
         </div>
     )
 }

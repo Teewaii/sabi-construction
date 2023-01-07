@@ -1,4 +1,5 @@
 
+import Clients from './components/Clients';
 import Hero from './components/Hero';
 import MiniInfo from './components/MiniInfo';
 import Services from './components/Services';
@@ -6,10 +7,10 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App min-h-full">
       <MiniInfo />
       <Hero />
-
+      <Clients />
       {/* <Services /> */}
 
     </div>
