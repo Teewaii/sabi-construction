@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sabi-construction/static/css/main.62562568.css",
+    "main.js": "/sabi-construction/static/js/main.06ad40a6.js",
+    "static/js/787.18b2de21.chunk.js": "/sabi-construction/static/js/787.18b2de21.chunk.js",
+    "static/media/slider1_bkg.png": "/sabi-construction/static/media/slider1_bkg.d81adc49175a3e5bbce2.png",
+    "static/media/hero_px1_desktop.png": "/sabi-construction/static/media/hero_px1_desktop.5c44cdd427b709972fa4.png",
+    "static/media/slider1_bkg_mob.png": "/sabi-construction/static/media/slider1_bkg_mob.fcb075e4e610970ee8e6.png",
+    "static/media/house_buyer.svg": "/sabi-construction/static/media/house_buyer.2655676ce28372260dba90dfb3b614ab.svg",
+    "static/media/hero_px1_mob.png": "/sabi-construction/static/media/hero_px1_mob.38f8075f858e78f9e27d.png",
+    "static/media/bowen.svg": "/sabi-construction/static/media/bowen.19d4df19364024a8b5b866d9bbd37599.svg",
+    "static/media/skyline.svg": "/sabi-construction/static/media/skyline.8204ebb549c2d3a1ab09a23460aa4723.svg",
+    "static/media/ctb.svg": "/sabi-construction/static/media/ctb.91a99a8ddf23c529672de90951cea851.svg",
+    "static/media/kw.svg": "/sabi-construction/static/media/kw.67aa2e69e27494e8d0c851df29230028.svg",
+    "static/media/Era.svg": "/sabi-construction/static/media/Era.402c2266dfdc865aa44989976ca580d8.svg",
+    "static/media/fb.svg": "/sabi-construction/static/media/fb.245351ca080521e51e97fc8be08f2c51.svg",
+    "static/media/insta.svg": "/sabi-construction/static/media/insta.9e1195965a61c0673074ec1e0de9e32f.svg",
+    "static/media/twi.svg": "/sabi-construction/static/media/twi.635bc7b4bec4e1809d92656fa62281d8.svg",
+    "index.html": "/sabi-construction/index.html",
+    "static/media/location.svg": "/sabi-construction/static/media/location.4be0028b60c90f3f42d7866c90f01887.svg",
+    "static/media/envelope.svg": "/sabi-construction/static/media/envelope.4a4e8b07a6d7fea86c8d6a2559d2533c.svg",
+    "main.62562568.css.map": "/sabi-construction/static/css/main.62562568.css.map",
+    "main.06ad40a6.js.map": "/sabi-construction/static/js/main.06ad40a6.js.map",
+    "787.18b2de21.chunk.js.map": "/sabi-construction/static/js/787.18b2de21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62562568.css",
+    "static/js/main.06ad40a6.js"
+  ]
+}
