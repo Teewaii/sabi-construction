@@ -9,7 +9,7 @@ function About() {
                 <div className="company_img flex items-center  justify-center flex-1  w-fit">
                     <img className='w-[80%] mb-4' src={engineers} alt="Company image" />
                 </div>
-                <div className="About_Comp flex flex-col flex-1  ">
+                <div className="About_Comp flex flex-col flex-1 items-center md:items-start   ">
                     <div className="about flex flex-col items-center lg:items-start">
                         <h1 className='font-[700] border-b-2 border-orange w-fit'>About us</h1>
                         <p className='text-center lg:text-left'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
