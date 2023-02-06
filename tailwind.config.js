@@ -23,6 +23,8 @@ module.exports = {
         'hero1-bkg': "url('/src/img/slider1_bkg_mob.png')",
         'hero1-bkg_lg': "url('/src/img/slider1_bkg.png')",
         'hero2-bkg_lg': "url('/src/img/slide2.jpg')",
+        'about_bkg': "url('/src/img/about_bkg.png')",
+        'about_bkg_mobile': "url('/src/img/about_bkg_mobile.png')",
       }
     },
   },
