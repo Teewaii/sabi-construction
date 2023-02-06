@@ -3,8 +3,8 @@ import engineers from '../img/engineers.png'
 
 function About() {
     return (
-        <section className="About bg-about_bkg_mobile lg:bg-about_bkg bg-contain h-full ">
-            <div className="about-wrapper container flex flex-col lg:flex-row py-[50px] lg:py-[87px] items-center">
+        <section className="About bg-about_bkg_mobile lg:bg-about_bkg bg-contain min-h-screen ">
+            <div className="about-wrapper container flex flex-col md:flex-row py-[50px] lg:py-[87px] items-center">
                 <div className="company_img flex items-center  justify-center flex-1  w-fit">
                     <img className='w-[80%] mb-4' src={engineers} alt="Company image" />
                 </div>
