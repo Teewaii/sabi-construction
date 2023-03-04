@@ -25,6 +25,8 @@ module.exports = {
         'hero2-bkg_lg': "url('/src/img/slide2.jpg')",
         'about_bkg': "url('/src/img/about_bkg.png')",
         'about_bkg_mobile': "url('/src/img/about_bkg_mobile.png')",
+        'cont_bkg_mobile': "url('/src/img/contact_bkg_mob.svg')",
+        'cont_bkg': "url('/src/img/contact_bkg.svg')",
       }
     },
   },
