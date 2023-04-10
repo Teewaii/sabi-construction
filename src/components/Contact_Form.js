@@ -15,7 +15,9 @@ function Contact_Form() {
                     <input className='w-[90%] text-sm py-3 px-4 rounded-lg' type="text" placeholder='Last Name' id='last_name' name='last_name' />
                     <input className='w-[90%] text-sm py-3 px-4 rounded-lg' type="email" placeholder='Email' id='email' name='email' />
                     <textarea className='w-[90%] text-sm py-3 px-4 rounded-lg' rows='5' cols='12' placeholder='Message' id='message' name='message' />
-                    <button className='bg-white px-10 rounded-md py-3 w-[90%] font-[700] mt-4 hover:bg-Dark_orange hover:text-white'>Send</button>
+                    <div className="submit flex w-[90%]">
+                        <button className='bg-white px-10 rounded-md py-3 w-[100%] lg:w-[20%] font-[700] mt-4 hover:bg-black  hover:text-white ease-in-out duration-300 uppercase'>Send</button>
+                    </div>
                 </div>
             </div>
         </section>

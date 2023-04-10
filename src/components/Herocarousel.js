@@ -9,7 +9,7 @@ import Projects_btn from './Projects_btn';
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <div className="slider-one bg-black bg-hero1-bkg md:bg-hero1-bkg_lg  bg-cover bg-no-repeat h-[100%]  relative ">
+    <div className="slider-one bg-black bg-hero1-bkg md:bg-hero1-bkg_lg  bg-cover bg-no-repeat h-[100%] lg:pt-8  relative ">
         <div className="slideOne-bucket flex justify-between items-center container h-[100%]">
             <div className="text text-left flex-1">
                 <h1 className='text-white text-left text-xl md:text-4xl xl:text-6xl uppercase font-bold '>You dream it.<br /> We can build it.</h1>
@@ -20,7 +20,7 @@ const items = [
                 </div>
             </div>
             <div className="SlideOne-imgage flex items-end justify-end h-[100%] flex-[1]">
-                <img src={heroMob1} className='md:hidden w-[100%]  ' alt="carousel image" />
+                <img src={heroMob1} className='md:hidden w-[100%] pt-8 ' alt="carousel image" />
                 <img src={heroDesk1} className='hidden md:flex  w-[70%] md:w-[85%]' alt="carousel image" />
             </div>
 
