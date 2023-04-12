@@ -5,9 +5,9 @@ import map from '../img/map.png'
 function Locations() {
 
     return (
-        <section className="location uppercase container gap-x-6 flex ">
+        <section className="location uppercase container gap-x-6 flex flex-col lg:flex-row py-[55px] ">
 
-            <div className='bg-black p-[33px] w-40% '>
+            <div className='bg-black lg:w-[38%] p-[25px]  rounded-lg mb-4'>
                 <h1 className='text-orange font-bold mb-[25px]'>you can find our offices in</h1>
                 <ul className='text-white space-y-2'>  {
                     Loc.map((item, id) =>
@@ -18,7 +18,7 @@ function Locations() {
                 </ul>
 
             </div>
-            <div className="map w-screen bg-slate-400 w-50% ">
+            <div className="map">
                 <img src={map} className="w-screen" alt="Google map" />
             </div>
         </section>

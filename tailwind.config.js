@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         'orange': '#DA5A06',
         'Dark_orange': '#b34904',
+        'footer_bg': '#302E2E',
       },
       backgroundImage: {
         'hero1-bkg': "url('/src/img/slider1_bkg_mob.png')",

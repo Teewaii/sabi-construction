@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Clients from './components/Clients';
 import Contact_Form from './components/Contact_Form';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Locations from './components/Locations';
 import MiniInfo from './components/MiniInfo';
@@ -34,6 +35,7 @@ function App() {
       <Projects />
       <Contact_Form />
       <Locations />
+      <Footer />
       <Modal
         toggle={toggle}
         changeToggle={changeToggle} />
