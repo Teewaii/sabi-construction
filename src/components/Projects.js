@@ -20,7 +20,7 @@ function Projects() {
             </div>
 
             <div className="projects_container grid grid-cols-1 md:grid-cols-3 lg:md:grid-cols-4 xl:md:grid-cols-5 lg:gap-x-4">
-                <div className="project lg:w-[200px] cursor-pointer hover:scale-[1.05] ease-in-out duration-300">
+                <div className="project lg:w-[200px] cursor-pointer hover:scale-[1.05] ease-in-out duration-300 ">
                     <img className='hidden lg:flex' src={downvalley} alt="" />
                     <img className='lg:hidden w-[100%]  ' src={downvalley_m} alt="" />
                     <h1 className='uppercase font-[700] mt-4 lg:text-2xl'>donwvalley</h1>

@@ -8,7 +8,7 @@ import Engineering_icon from '../img/Engineering_icon.svg';
 
 function Services() {
     return (
-        <section className="services bg-orange " id='services'>
+        <section className="services bg-orange  " id='services'>
             <div className="services-wrapper flex flex-col items-center py-20 container">
                 <h1 className='text-xl font-[700] uppercase mb-6'>services</h1>
 

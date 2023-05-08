@@ -4,7 +4,7 @@ import cont from '../img/cont.jpg'
 function Contact_Form() {
     return (
 
-        <section className="contact bg-orange bg-cont_bkg_mobile lg:bg-about_bkg bg-no-repeat bg-cover flex" id='contact'>
+        <section className="contact bg-orange bg-cont_bkg_mobile lg:bg-about_bkg bg-no-repeat bg-cover flex flex-col lg:flex-row bg-fixed" id='contact'>
 
             <div className='container py-16 lg:py-40 text-center'>
                 <div className="head mb-6">

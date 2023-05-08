@@ -15,17 +15,18 @@ import To_top from './components/To_top';
 // import { useRef } from "react";
 
 function App() {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(true)
 
   function changeToggle() {
     setToggle(prev => !prev)
   }
 
-  
+
 
   return (
 
-    <div className={toggle ? "App min-h-full fixed" : "min-h-full relative"}>
+    <div className="App min-h-full " >
+      {/* <div className={toggle ? "App min-h-full fixed" : "min-h-full relative"}> */}
       {/* <MiniInfo /> */}
       <Nav
         toggle={toggle}
