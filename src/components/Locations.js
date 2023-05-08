@@ -5,9 +5,10 @@ import map from '../img/map.png'
 function Locations() {
 
     return (
-        <section className="location uppercase container gap-x-6 flex flex-col lg:flex-row py-[55px] ">
+        <section className="location uppercase container gap-x-6 flex flex-col lg:flex-row py-[95px] ">
 
-            <div className='bg-black lg:w-[38%] p-[25px]  rounded-lg mb-4'>
+            <div className='bg-black lg:w-[38%] p-[25px]  rounded-lg mb-4 h-fit'>
+
                 <h1 className='text-orange font-bold mb-[25px]'>you can find our offices in</h1>
                 <ul className='text-white space-y-2'>  {
                     Loc.map((item, id) =>

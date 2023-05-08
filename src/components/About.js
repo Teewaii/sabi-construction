@@ -4,7 +4,7 @@ import Contact_btn from './Contact_btn'
 
 function About() {
     return (
-        <section className="About bg-about_bkg_mobile lg:bg-about_bkg bg-no-repeat bg-cover min-h-screen ">
+        <section className="About bg-about_bkg_mobile lg:bg-about_bkg bg-no-repeat bg-cover max-sm:min-h-screen " id='about'>
             <div className="about-wrapper container flex flex-col md:flex-row py-[50px] lg:py-[87px] items-center">
                 <div className="company_img flex items-center  justify-center flex-1  w-fit">
                     <img className='w-[80%] mb-4' src={engineers} alt="Company image" />

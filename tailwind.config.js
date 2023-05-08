@@ -12,6 +12,7 @@ module.exports = {
           lg: '4rem',
           xl: '5rem',
           '2xl': '6rem',
+          '3xl': '12rem',
         },
         center: true
       },
@@ -28,8 +29,22 @@ module.exports = {
         'about_bkg_mobile': "url('/src/img/about_bkg_mobile.png')",
         'cont_bkg_mobile': "url('/src/img/contact_bkg_mob.svg')",
         'cont_bkg': "url('/src/img/contact_bkg.svg')",
-      }
+        'contact_bkg': "url('/src/img/cont.jpg')",
+      },
+
+      screens: {
+        // '3xl': '1680px',
+        '3xl': '1700px',
+        // => @media (min-width: 1680px) { ... }
+
+        '4xl': '1920px',
+
+
+      },
+
     },
+
   },
+
   plugins: [],
 }

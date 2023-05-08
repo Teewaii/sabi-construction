@@ -23,6 +23,11 @@ li.alice-carousel__dots-item:not(.__custom).__active {
   height: 12px;
 }
 
+.nav_item .active {
+  padding-bottom: 4px;
+  border-bottom: 3px solid white;
+}
+
 /* ul.alice-carousel__stage {
   border: 2px solid;
   height: 80vh;

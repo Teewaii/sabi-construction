@@ -3,7 +3,7 @@ import Herocarousel from './Herocarousel'
 
 function Hero() {
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <Herocarousel />
         </div>
     )

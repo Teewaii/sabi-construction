@@ -12,6 +12,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import To_top from './components/To_top';
 
+// import { useRef } from "react";
 
 function App() {
   const [toggle, setToggle] = useState(false)
@@ -19,6 +20,9 @@ function App() {
   function changeToggle() {
     setToggle(prev => !prev)
   }
+
+  
+
   return (
 
     <div className={toggle ? "App min-h-full fixed" : "min-h-full relative"}>

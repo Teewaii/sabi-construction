@@ -3,21 +3,41 @@ import logo from '../../src/img/logo_desktop.svg';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { Link } from 'react-scroll';
-
+import { useRef } from "react";
+import Hero from './Hero';
 
 function Nav({ toggle, setToggle, changeToggle }) {
 
+
+    // const Home = () => {
+    //     const Hero = useRef()
+    //     function scrollToSection() {
+    //         Hero.current.scrollIntoView({ behavior: 'smooth' })
+    //     }
+    // }
+
+    // const home = useRef(null);
+    // const scrollToSection = (elementRef) => {
+    //     if (elementRef?.current?.offsetTop) {
+    //         window.scrollTo({
+    //             top: elementRef.current.offsetTop,
+    //             behavior: "smooth",
+    //         });
+    //     }
+    // };
+
     return (
-        <nav className="nav py-3 lg:py-4 lg:flex bg-orange z-40 sticky top-0">
+        <nav className="nav py-3 lg:py-0 lg:flex bg-orange z-40 sticky top-0">
             <div className='container w-screen flex justify-between  items-center  text-white'>
                 <img src={logo} className="hidden lg:flex" alt="" />
-                <ul className={!toggle ? ' hidden lg:flex text-sm gap-x-4' : 'flex-col space-y-[16px] absolute top-0 bottom-0 right-0 bg-black w-[60%] py-[80px]  z-[40]'}>
-                    <li> <Link spy={true} smooth={true} offset={50} duration={500} className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange' to="Herocarousel">Home</Link> </li>
-                    <li> <Link spy={true} smooth={true} offset={50} duration={500} className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange' to="About">About</Link></li>
-                    <li> <Link spy={true} smooth={true} offset={50} duration={500} className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange' to="Services">Services</Link></li>
-                    <li> <Link spy={true} smooth={true} offset={50} duration={500} className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange' to="Projects">Projects</Link></li>
-                    <li> <Link spy={true} smooth={true} offset={50} duration={500} className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange' to="Contact_Form">Contact</Link></li>
-                </ul>
+                <ul className={!toggle ? ' hidden lg:flex text-sm gap-x-4' : 'flex-col space-y-[16px] absolute top-0 bottom-0 right-0 bg-black w-[60%] h-screen py-[80px]  z-[40]'}>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link to="hero" spy={true} smooth={true} offset={-50} duration={500} >Home </Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link to="about" spy={true} smooth={true} offset={-50} duration={500} > About</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link to="services" spy={true} smooth={true} offset={-50} duration={500} >Services</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} > Projects</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link to="contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link> </li>
+                    {/* <li className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link spy={true} smooth={true} offset={50} duration={500} to="Contact_Form">Contact</Link></li> */}
+                </ul >
 
                 <div className="top_mobile flex lg:hidden justify-between items-center w-screen">
                     <img src={logo} className=" lg:hidden" alt="" />
@@ -25,8 +45,8 @@ function Nav({ toggle, setToggle, changeToggle }) {
                         {toggle ? <XMarkIcon className="h-9 w-9 color-white" /> : <Bars3Icon className="h-9 w-9 color-white" />}
                     </div>
                 </div>
-            </div>
-        </nav>
+            </div >
+        </nav >
     )
 }
 
