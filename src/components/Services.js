@@ -10,11 +10,11 @@ function Services() {
     return (
         <section className="services bg-orange  " id='services'>
             <div className="services-wrapper flex flex-col items-center py-20 container">
-                <h1 className='text-xl font-[700] uppercase mb-6'>services</h1>
+                <h1 className='header font-[700] uppercase mb-6'>services</h1>
 
                 <div className="items grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
                     <div className="construction_Mgt bg-white p-6 flex gap-x-6 rounded-lg duration-300 ease-in-out hover:shadow-xl hover:scale-[1.05]  ">
-                        <div className="logo w-[120px] flex h-fit flex-shrink:0 bg-orange p-2 rounded-full">
+                        <div className="logo w-[100px] flex h-fit flex-shrink:0 bg-orange p-2 rounded-full">
                             <img src={const_mgt_icon} alt=" construction Management" />
                         </div>
                         <div className="info">

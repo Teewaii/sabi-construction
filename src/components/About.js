@@ -11,13 +11,13 @@ function About() {
                 </div>
                 <div className="About_Comp flex flex-col flex-1 items-center md:items-start   ">
                     <div className="about flex flex-col items-center lg:items-start">
-                        <h1 className='font-[700] border-b-2 border-orange w-fit'>About us</h1>
+                        <h1 className='title font-[700] border-b-2 border-orange w-fit'>About us</h1>
                         <p className='text-center lg:text-left'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
                             Our mission is To provide quality workmanship and customer service and maintain the highest level of professionalism, honesty and fairness in our relationships with our customers, employees and vendors. To grow by continually providing useful and significant products, services, and solutions to markets we already serve – and to expand into new areas that build on our competencies and customer interests.
                         </p>
                     </div>
                     <div className="mission flex flex-col items-center lg:items-start pb-8">
-                        <h1 className='font-[700] border-b-2 border-orange w-fit mt-[32px]'>Mission</h1>
+                        <h1 className='title font-[700] border-b-2 border-orange w-fit mt-[32px]'>Mission</h1>
                         <p>Our mission is To provide quality workmanship and customer service and maintain the highest level of professionalism, honesty and fairness in our relationships with our customers, employees and vendors. To grow by continually providing useful and significant products, services, and solutions to markets we already
                             serve – and to expand into new areas that build on our competencies and customer interests.</p>
                     </div>

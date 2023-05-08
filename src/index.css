@@ -29,12 +29,31 @@ li.alice-carousel__dots-item:not(.__custom).__active {
   border-bottom: 3px solid white;
 } */
 
+.header {
+  font-size: 35px;
+}
+
+
 
 @media screen and (min-width:920px) {
   .nav_item .active {
     padding-bottom: 4px;
     border-bottom: 3px solid white;
+
   }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:920px) {
+  .header {
+    font-size: 25px;
+  }
+
+
 }
 
 

@@ -8,8 +8,8 @@ function Contact_Form() {
 
             <div className='container py-16 lg:py-40 text-center'>
                 <div className="head mb-6">
-                    <h1 className='uppercase text-2xl lg:text-6xl font-[700] mb-4'>Get in touch</h1>
-                    <p className='text-white text-sm px-4 leading-5 lg:text-2xl'>Please get in touch with us and our team of experts will attend to all your additional queries.</p>
+                    <h1 className='uppercase text-2xl lg:text-5xl font-[700] mb-4'>Get in touch</h1>
+                    <p className='text-white text-sm px-4 leading-5 lg:text-xl'>Please get in touch with us and our team of experts will attend to all your additional queries.</p>
                 </div>
                 <div className="input_fields flex flex-col items-center gap-y-4">
                     <input className='w-[90%] text-sm  py-3 px-4 rounded-lg lg:text-lg lg:py-3' type="text" placeholder='First Name' id='first_name' name='first_name' />

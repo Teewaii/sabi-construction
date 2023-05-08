@@ -25,8 +25,8 @@ function App() {
 
   return (
 
-    <div className="App min-h-full " >
-      {/* <div className={toggle ? "App min-h-full fixed" : "min-h-full relative"}> */}
+    // <div className="App min-h-full " >
+    <div className={!toggle ? "App min-h-full fixed" : "min-h-full relative"}>
       {/* <MiniInfo /> */}
       <Nav
         toggle={toggle}
@@ -49,7 +49,7 @@ function App() {
       <To_top />
 
 
-    </div>
+    </div >
   );
 }
 
