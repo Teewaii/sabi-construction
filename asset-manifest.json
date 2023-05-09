@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sabi-construction/static/css/main.aa718f44.css",
-    "main.js": "/sabi-construction/static/js/main.25bb6be5.js",
+    "main.css": "/sabi-construction/static/css/main.4a1968fc.css",
+    "main.js": "/sabi-construction/static/js/main.b9ae9036.js",
     "static/js/787.18b2de21.chunk.js": "/sabi-construction/static/js/787.18b2de21.chunk.js",
     "static/media/slider1_bkg.png": "/sabi-construction/static/media/slider1_bkg.d81adc49175a3e5bbce2.png",
     "static/media/map.png": "/sabi-construction/static/media/map.d477c3cb93a7a81a757e.png",
@@ -39,12 +39,12 @@
     "index.html": "/sabi-construction/index.html",
     "static/media/location.svg": "/sabi-construction/static/media/location.692d53e8d7e984673cd28ca0b4afa59f.svg",
     "static/media/envelope.svg": "/sabi-construction/static/media/envelope.c245bfc9c4ee6ea317bb7fa5a9ae074c.svg",
-    "main.aa718f44.css.map": "/sabi-construction/static/css/main.aa718f44.css.map",
-    "main.25bb6be5.js.map": "/sabi-construction/static/js/main.25bb6be5.js.map",
+    "main.4a1968fc.css.map": "/sabi-construction/static/css/main.4a1968fc.css.map",
+    "main.b9ae9036.js.map": "/sabi-construction/static/js/main.b9ae9036.js.map",
     "787.18b2de21.chunk.js.map": "/sabi-construction/static/js/787.18b2de21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa718f44.css",
-    "static/js/main.25bb6be5.js"
+    "static/css/main.4a1968fc.css",
+    "static/js/main.b9ae9036.js"
   ]
 }
