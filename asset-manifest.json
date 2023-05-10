@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/sabi-construction/static/css/main.bba219ff.css",
-    "main.js": "/sabi-construction/static/js/main.e0a94b0a.js",
+    "main.css": "/sabi-construction/static/css/main.72d5d5fb.css",
+    "main.js": "/sabi-construction/static/js/main.6a7453ab.js",
     "static/js/787.18b2de21.chunk.js": "/sabi-construction/static/js/787.18b2de21.chunk.js",
     "static/media/slider1_bkg.png": "/sabi-construction/static/media/slider1_bkg.d81adc49175a3e5bbce2.png",
     "static/media/map.png": "/sabi-construction/static/media/map.d477c3cb93a7a81a757e.png",
     "static/media/about_bkg.png": "/sabi-construction/static/media/about_bkg.36ec01121b76d387b439.png",
     "static/media/East side_m.png": "/sabi-construction/static/media/East side_m.622e83e4a25db26b0f4b.png",
+    "static/media/hero_px2_desktop.png": "/sabi-construction/static/media/hero_px2_desktop.ab31228a5162dd79c909.png",
     "static/media/hero_px1_desktop.png": "/sabi-construction/static/media/hero_px1_desktop.5c44cdd427b709972fa4.png",
     "static/media/donwvalley_m.png": "/sabi-construction/static/media/donwvalley_m.7daaff982c31df589ac6.png",
     "static/media/Edward tower_m.png": "/sabi-construction/static/media/Edward tower_m.83ee52296cb1362116c7.png",
@@ -39,12 +40,12 @@
     "index.html": "/sabi-construction/index.html",
     "static/media/location.svg": "/sabi-construction/static/media/location.692d53e8d7e984673cd28ca0b4afa59f.svg",
     "static/media/envelope.svg": "/sabi-construction/static/media/envelope.c245bfc9c4ee6ea317bb7fa5a9ae074c.svg",
-    "main.bba219ff.css.map": "/sabi-construction/static/css/main.bba219ff.css.map",
-    "main.e0a94b0a.js.map": "/sabi-construction/static/js/main.e0a94b0a.js.map",
+    "main.72d5d5fb.css.map": "/sabi-construction/static/css/main.72d5d5fb.css.map",
+    "main.6a7453ab.js.map": "/sabi-construction/static/js/main.6a7453ab.js.map",
     "787.18b2de21.chunk.js.map": "/sabi-construction/static/js/787.18b2de21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bba219ff.css",
-    "static/js/main.e0a94b0a.js"
+    "static/css/main.72d5d5fb.css",
+    "static/js/main.6a7453ab.js"
   ]
 }
