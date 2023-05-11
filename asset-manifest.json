@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sabi-construction/static/css/main.72d5d5fb.css",
-    "main.js": "/sabi-construction/static/js/main.6a7453ab.js",
+    "main.css": "/sabi-construction/static/css/main.2e039f5f.css",
+    "main.js": "/sabi-construction/static/js/main.c0dcdf7c.js",
     "static/js/787.18b2de21.chunk.js": "/sabi-construction/static/js/787.18b2de21.chunk.js",
     "static/media/slider1_bkg.png": "/sabi-construction/static/media/slider1_bkg.d81adc49175a3e5bbce2.png",
     "static/media/map.png": "/sabi-construction/static/media/map.d477c3cb93a7a81a757e.png",
@@ -34,18 +34,21 @@
     "static/media/Engineering_icon.svg": "/sabi-construction/static/media/Engineering_icon.0ce64bc1863e379f329c3853cd80c6da.svg",
     "static/media/logo_desktop.svg": "/sabi-construction/static/media/logo_desktop.639a88a79247cfd755924c1f587cf74b.svg",
     "static/media/const_mgt_icon.svg": "/sabi-construction/static/media/const_mgt_icon.122884fc3727ad354150768ef93180e5.svg",
+    "static/media/design&building_icon-01.svg": "/sabi-construction/static/media/design&building_icon-01.1ad124d2968bd8a38d799b9358d2015e.svg",
+    "static/media/Eng_design.icon-01.svg": "/sabi-construction/static/media/Eng_design.icon-01.114dca42f82c010a44996e093b55b9b7.svg",
+    "static/media/safety_icon-01.svg": "/sabi-construction/static/media/safety_icon-01.d7a87811039985736ae8e210a0f4905e.svg",
     "static/media/fb.svg": "/sabi-construction/static/media/fb.bb351b36cf8edd5cf1faa26508e583d8.svg",
     "static/media/insta.svg": "/sabi-construction/static/media/insta.f92934e9d8da4b7934dbd757b9ab43e1.svg",
     "static/media/twi.svg": "/sabi-construction/static/media/twi.3e1429d8c9d667b3ce8f32875d89881e.svg",
     "index.html": "/sabi-construction/index.html",
     "static/media/location.svg": "/sabi-construction/static/media/location.692d53e8d7e984673cd28ca0b4afa59f.svg",
     "static/media/envelope.svg": "/sabi-construction/static/media/envelope.c245bfc9c4ee6ea317bb7fa5a9ae074c.svg",
-    "main.72d5d5fb.css.map": "/sabi-construction/static/css/main.72d5d5fb.css.map",
-    "main.6a7453ab.js.map": "/sabi-construction/static/js/main.6a7453ab.js.map",
+    "main.2e039f5f.css.map": "/sabi-construction/static/css/main.2e039f5f.css.map",
+    "main.c0dcdf7c.js.map": "/sabi-construction/static/js/main.c0dcdf7c.js.map",
     "787.18b2de21.chunk.js.map": "/sabi-construction/static/js/787.18b2de21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d5d5fb.css",
-    "static/js/main.6a7453ab.js"
+    "static/css/main.2e039f5f.css",
+    "static/js/main.c0dcdf7c.js"
   ]
 }
