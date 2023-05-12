@@ -25,29 +25,31 @@ function App() {
 
   return (
 
-    // <div className="App min-h-full " >
-    <div className={!toggle ? "App min-h-full fixed overflow-hidden" : "min-h-full relative overflow-hidden"}>
+
+    <div className={!toggle ? " min-h-full fixed " : "min-h-full relative "}>
       {/* <MiniInfo /> */}
       <Nav
         toggle={toggle}
         setToggle={setToggle}
         changeToggle={changeToggle}
       />
-      <Hero />
-      <Clients />
-      <About />
-      <Services />
-      <Projects />
-      <Contact_Form />
-      <Locations />
-      <Footer />
-      <Modal
-        toggle={toggle}
-        changeToggle={changeToggle} />
-      {/* <Services /> */}
+      <div className="overflow-hidden " >
+        <Hero />
+        <Clients />
+        <About />
+        <Services />
+        <Projects />
+        <Contact_Form />
+        <Locations />
+        <Footer />
+        <Modal
+          toggle={toggle}
+          changeToggle={changeToggle} />
+        {/* <Services /> */}
 
-      <To_top />
+        <To_top />
 
+      </div>
 
     </div >
   );

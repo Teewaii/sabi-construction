@@ -10,7 +10,7 @@ function Nav({ toggle, setToggle, changeToggle }) {
 
 
     return (
-        <nav className="nav py-3 lg:py-0 lg:flex bg-orange z-40 sticky top-0">
+        <nav className="nav py-3 lg:py-0 lg:flex bg-orange z-40 sticky  top-0">
             <div className='container w-screen flex justify-between  items-center  text-white'>
 
                 <Link to="hero" className='cursor-pointer' spy={true} smooth={true} offset={-50} duration={500} >
