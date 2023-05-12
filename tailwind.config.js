@@ -12,7 +12,7 @@ module.exports = {
           lg: '4rem',
           xl: '5rem',
           '2xl': '6rem',
-          // '3xl': '14rem',
+          '3xl': '14rem',
           '4xl': '16rem',
         },
         center: true
@@ -31,6 +31,8 @@ module.exports = {
         'cont_bkg_mobile': "url('/src/img/contact_bkg_mob.svg')",
         'cont_bkg': "url('/src/img/contact_bkg.svg')",
         'contact_bkg': "url('/src/img/cont.jpg')",
+        'about_left': "url('/src/img/about.jpeg')",
+        'about_mo': "url('/src/img/about_mo.jpeg')",
       },
 
       screens: {

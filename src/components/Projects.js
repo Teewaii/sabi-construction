@@ -7,19 +7,24 @@ import Clif_land from '../../src/img/Clif land.png';
 import Clif_land_m from '../../src/img/Clif land_m.png';
 import East_side from '../../src/img/East side.png';
 import East_side_m from '../../src/img/East side_m.png';
-
+import { motion } from "framer-motion";
 
 function Projects() {
 
     return (
-        <section className="project container py-20" id='projects'>
+        <section className="project container py-[125px]" id='projects'>
             <div className="heading flex justify-between items-center relative after:absolute after:left-0 after:bg-gray-300 after:right-0 after:h-[1px] after:top-12 mb-12 ">
                 <h1 className='uppercase font-[700] text-[16px] lg:text-2xl'>projects</h1>
                 <h1 className='bg-orange px-6 py-1 font-[500] cursor-pointer text-white rounded-xl hover:scale-[1.2] hover:bg-[#D9D8D7]
                  hover:text-orange ease-in-out duration-300 text-md lg:text-2xl '>All</h1>
             </div>
 
-            <div className="projects_container grid grid-cols-1 md:grid-cols-3 lg:md:grid-cols-4 xl:md:grid-cols-5 lg:gap-x-4">
+            <motion.div className="projects_container grid grid-cols-1 md:grid-cols-3 lg:md:grid-cols-4 xl:md:grid-cols-5 lg:gap-x-4"
+
+                initial={{ y: 30 }}
+                whileInView={{ y: 0 }}
+                transition={{ duration: 1 }}
+            >
                 <div className="project lg:w-[200px] cursor-pointer hover:scale-[1.05] ease-in-out duration-300 ">
                     <img className='hidden lg:flex' src={downvalley} alt="" />
                     <img className='lg:hidden w-[100%]  ' src={downvalley_m} alt="" />
@@ -54,7 +59,7 @@ function Projects() {
                     <h1 className='uppercase font-[700] mt-4 lg:text-2xl'>donwvalley</h1>
                     <p className="mb-6 text-sm lg:lg 2xl:text-[20px]">There are many variations of passages of Lorem Ipsum available.</p>
                 </div>
-            </div>
+            </motion.div>
         </section>
 
     )

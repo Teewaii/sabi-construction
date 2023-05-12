@@ -3,7 +3,7 @@ import logo from '../../src/img/logo_desktop.svg';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import { Link } from 'react-scroll';
-import Hero from './Hero';
+// import Hero from './Hero';
 
 
 function Nav({ toggle, setToggle, changeToggle }) {
@@ -17,11 +17,12 @@ function Nav({ toggle, setToggle, changeToggle }) {
                     <img src={logo} className="hidden lg:flex" alt="logo" />
                 </Link>
                 <ul className={toggle ? ' hidden lg:flex text-sm gap-x-4' : 'flex-col space-y-[16px] absolute top-0 bottom-0 right-0 bg-black w-[60%] h-screen py-[80px]  z-[40]'}>
-                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="hero" spy={true} smooth={true} offset={-50} duration={500} >Home </Link> </li>
-                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="about" spy={true} smooth={true} offset={-50} duration={500} > About</Link> </li>
-                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link onClick={() => setToggle(true)} to="services" spy={true} smooth={true} offset={-50} duration={500} >Services</Link> </li>
-                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="projects" spy={true} smooth={true} offset={-50} duration={500} > Projects</Link> </li>
-                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link onClick={() => setToggle(true)} to="contact" spy={true} smooth={true} offset={-50} duration={500} >Contact</Link> </li>
+                    <li className='nav_item  px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="hero" spy={true} smooth={true} offset={-50} duration={500} >Home </Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="about" spy={true} smooth={true} offset={-50} duration={500} > About</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link onClick={() => setToggle(true)} to="services" spy={true} smooth={true} offset={-50} duration={500} >Services</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link onClick={() => setToggle(true)} to="projects" spy={true} smooth={true} offset={-50} duration={500} > Projects</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link onClick={() => setToggle(true)} to="contact" spy={true} smooth={true} offset={-50} duration={500} >Contact</Link> </li>
+                    <li className='nav_item px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] max-md:hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'>  <Link onClick={() => setToggle(true)} to="location" spy={true} smooth={true} offset={-50} duration={500} >Our Offices</Link> </li>
                     {/* <li className='px-[50px] lg:py-5 lg:px-[10px] lg:hover:px-[10px] hover:w-[100%] py-3 hover:bg-orange cursor-pointer ease-in-out duration-300 lg:hover:bg-white lg:hover:text-orange'> <Link spy={true} smooth={true} offset={50} duration={500} to="Contact_Form">Contact</Link></li> */}
                 </ul >
 

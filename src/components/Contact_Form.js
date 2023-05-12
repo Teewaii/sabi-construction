@@ -1,5 +1,4 @@
 import React from 'react';
-import cont from '../img/cont.jpg'
 
 function Contact_Form() {
     return (
@@ -17,7 +16,7 @@ function Contact_Form() {
                     <input className='w-[90%] text-sm  py-3 px-4 rounded-lg lg:text-lg lg:py-3' type="email" placeholder='Email' id='email' name='email' />
                     <textarea className='w-[90%] text-sm  py-3 px-4 rounded-lg lg:text-lg lg:py-5' rows='5' cols='12' placeholder='Message' id='message' name='message' />
                     <div className="submit flex w-[90%]">
-                        <button className='bg-white px-6 rounded-md py-4 w-[100%] lg:w-[20%] font-[700] mt-4 hover:bg-black  hover:text-white ease-in-out duration-300 uppercase text-xl'>Send</button>
+                        <button className='bg-white px-6 rounded-md py-4 w-[100%] lg:w-[35%] font-[700] mt-4 hover:bg-black  hover:text-white ease-in-out duration-300 uppercase text-xl'>Send</button>
                     </div>
                 </div>
             </div>

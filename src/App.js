@@ -26,7 +26,7 @@ function App() {
   return (
 
     // <div className="App min-h-full " >
-    <div className={!toggle ? "App min-h-full fixed" : "min-h-full relative"}>
+    <div className={!toggle ? "App min-h-full fixed overflow-hidden" : "min-h-full relative overflow-hidden"}>
       {/* <MiniInfo /> */}
       <Nav
         toggle={toggle}
