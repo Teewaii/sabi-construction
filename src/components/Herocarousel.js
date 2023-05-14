@@ -13,7 +13,7 @@ const items = [
     <div className="slider-one bg-black bg-hero1-bkg md:bg-hero1-bkg_lg  bg-cover bg-no-repeat h-[100%] lg:pt-8  relative ">
         <div className="slideOne-bucket flex justify-between items-center container h-[100%]">
             <div className="text text-left flex-1">
-                <h1 className='text-xl text-white text-left md:text-4xl lg:text-5xl 2xl:text-7xl uppercase font-bold '>You dream it.<br /> We can build it.</h1>
+                <h1 className='text-xl text-white text-left md:text-4xl lg:text-5xl 2xl:text-6xl uppercase font-bold '>You dream it.<br /> We can build it.</h1>
                 <p className='max-sm:text-[0.8rem]  mb-2 md:text-lg md:mb-6 xl:text-2xl text-white font-light lg:mb-6 '>A once-in-a-lifetime project deserves timeless construction.</p>
                 <div className="buttons flex gap-x-2 md:gap-x-6 lg:pt-8">
                     <Contact_btn />

@@ -12,8 +12,9 @@ module.exports = {
           lg: '4rem',
           xl: '5rem',
           '2xl': '6rem',
-          '3xl': '14rem',
-          '4xl': '16rem',
+          '3xl': '16rem',
+
+          // '4xl': '20rem',
         },
         center: true
       },
