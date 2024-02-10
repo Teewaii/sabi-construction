@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/sabi-construction/static/css/main.40afd8b2.css",
-    "main.js": "/sabi-construction/static/js/main.b3582b89.js",
+    "main.css": "/sabi-construction/static/css/main.de700ce6.css",
+    "main.js": "/sabi-construction/static/js/main.aed23340.js",
     "static/js/787.18b2de21.chunk.js": "/sabi-construction/static/js/787.18b2de21.chunk.js",
     "static/media/slider1_bkg.png": "/sabi-construction/static/media/slider1_bkg.d81adc49175a3e5bbce2.png",
     "static/media/map.png": "/sabi-construction/static/media/map.d477c3cb93a7a81a757e.png",
     "static/media/about_bkg.png": "/sabi-construction/static/media/about_bkg.36ec01121b76d387b439.png",
     "static/media/East side_m.png": "/sabi-construction/static/media/East side_m.622e83e4a25db26b0f4b.png",
-    "static/media/hero_px2_desktop.png": "/sabi-construction/static/media/hero_px2_desktop.ab31228a5162dd79c909.png",
     "static/media/hero_px1_desktop.png": "/sabi-construction/static/media/hero_px1_desktop.5c44cdd427b709972fa4.png",
     "static/media/donwvalley_m.png": "/sabi-construction/static/media/donwvalley_m.7daaff982c31df589ac6.png",
     "static/media/Edward tower_m.png": "/sabi-construction/static/media/Edward tower_m.83ee52296cb1362116c7.png",
     "static/media/Clif land_m.png": "/sabi-construction/static/media/Clif land_m.318afb0edfaa818f4013.png",
     "static/media/about_mo.jpeg": "/sabi-construction/static/media/about_mo.db3c9cb3a0fe38e384fd.jpeg",
     "static/media/about_bkg_mobile.png": "/sabi-construction/static/media/about_bkg_mobile.f59472f948452dfd9d19.png",
-    "static/media/engineers.png": "/sabi-construction/static/media/engineers.23384c4c99d381e53efd.png",
     "static/media/donwvalley.png": "/sabi-construction/static/media/donwvalley.c367024bd70157fc562a.png",
     "static/media/slider1_bkg_mob.png": "/sabi-construction/static/media/slider1_bkg_mob.fcb075e4e610970ee8e6.png",
     "static/media/Edward tower.png": "/sabi-construction/static/media/Edward tower.f32e903b1048d48a69e0.png",
@@ -43,12 +41,12 @@
     "index.html": "/sabi-construction/index.html",
     "static/media/location.svg": "/sabi-construction/static/media/location.692d53e8d7e984673cd28ca0b4afa59f.svg",
     "static/media/envelope.svg": "/sabi-construction/static/media/envelope.c245bfc9c4ee6ea317bb7fa5a9ae074c.svg",
-    "main.40afd8b2.css.map": "/sabi-construction/static/css/main.40afd8b2.css.map",
-    "main.b3582b89.js.map": "/sabi-construction/static/js/main.b3582b89.js.map",
+    "main.de700ce6.css.map": "/sabi-construction/static/css/main.de700ce6.css.map",
+    "main.aed23340.js.map": "/sabi-construction/static/js/main.aed23340.js.map",
     "787.18b2de21.chunk.js.map": "/sabi-construction/static/js/787.18b2de21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40afd8b2.css",
-    "static/js/main.b3582b89.js"
+    "static/css/main.de700ce6.css",
+    "static/js/main.aed23340.js"
   ]
 }
