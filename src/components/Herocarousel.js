@@ -12,7 +12,7 @@ const items = [
   <div className="slider-one bg-black bg-hero1-bkg md:bg-hero1-bkg_lg  bg-cover bg-no-repeat h-[100%] lg:pt-8  relative ">
     <div className="slideOne-bucket flex justify-between items-center container h-[100%]">
       <div className="text text-left flex-1">
-        <h1 className="text-xl text-white text-left md:text-4xl lg:text-6xl 2xl:text-7xl uppercase font-bold ">
+        <h1 className="text-xl text-white text-left md:text-4xl lg:text-6xl 3xl:text-7xl uppercase font-bold ">
           You dream it.
           <br /> We can build it.
         </h1>
